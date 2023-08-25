@@ -66,7 +66,18 @@ if x <= y:
     print("Number-1 is less than Number-2 or equal: ",x,"-",y)
 
 ############################################################################
-#Mantıksal Operatörler
+#Logical Operators
+#and	
+if(x>y and x>3):
+    print("Number-1 is greater than Number-2 and Number-1 is greater 3",x,"-",y)
+
+#or	
+if(x>y or x>3):
+    print("Number-1 is greater than Number-2 or Number-1 is greater 3",x,"-",y)
+
+#not	
+if not(x < y and x < 10):
+    print("Number-1 is --not-- less than Number-2 and Number-1 is less than 10",x,"-",y)
 
 #Atama Operatörleri
 
