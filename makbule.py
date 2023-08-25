@@ -80,6 +80,38 @@ if not(x < y and x < 10):
     print("Number-1 is --not-- less than Number-2 and Number-1 is less than 10",x,"-",y)
 
 #Atama Operatörleri
+#Simple assignment operator ( = )
+x=50;
+print("Value After Simple assignment operator (=): ",x)
+
+#Add and equal operator ( += )
+x+=1;
+print("Value After Add and equal operator ( +=1 ): ",x)
+
+#Subtract and equal operator ( -= )
+x-=1;
+print("Value After Subtract and equal operator ( -=1 ): ",x)
+
+#Asterisk and equal operator ( *= )
+x*=2;
+print("Value After Asterisk and equal operator ( *=2 ): ",x)
+
+#Divide and equal operator ( /= )
+x/=2;
+print("Value After Divide and equal operator ( /=2 ): ",x)
+
+#Modulus and equal operator ( %= )
+x%=3;
+print("Value After Modulus and equal operator ( %=3 ): ",x)
+
+#Double divide and equal operator ( //= )
+x//=3;
+print("Value After Double divide and equal operator ( //=3 ): ",x)
+
+#Exponent assign operator ( **= )
+x**=3;
+print("Value After Exponent assign operator ( **=3 ): ",x)
+
 
 #Üyelik ve Kimlik Operatörleri
 
