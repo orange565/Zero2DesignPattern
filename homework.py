@@ -63,7 +63,7 @@ print("\n_____________ FIND NAMES THAT HAVE LESS THAN 6 CHAR ______________\n")
 names = ["makbule", "duru", "fatih", "ahmet", "rumeysa", "huseyin", "isa", "melahat", "gorkem"]
 
 def findNames(list, maxLength):
-    #Find names with length less than given maxLength
+    #Find names that have less than given length
     returnList = []
     for name in list:
         if len(name) < maxLength:
