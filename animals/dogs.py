@@ -1,13 +1,14 @@
-class Dog:
+import animals.mammal as ml
+
+class Dog(ml):
     #constructor
-    def __init__(self,name,age):
-        self.name = name
-        self.age = age
-
-    #Method
-    def bark(self):
-        deger = self.age
-        print(f"{self.name} says Woof")
-        return deger
-
+    def __init__(self,name,age,color,breed):
+        super().__init__(name,age,color)
+        self.breed = breed
+    
+    def speak(self):
+        return f"{self.name} says Bark!"
+    
+    def hunger(self):
+        pass
 

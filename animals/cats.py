@@ -1,9 +1,12 @@
-class Cat:
-    def __init__(self,name,age):
-        self.name = name
-        self.age = age
+import animals.mammal as ml
+
+class Cat(ml):
+    def __init__(self,name,age,color,breed):
+        super().__init__(name,age,color)
+        self.breed = breed
     
-    def meow(self):
-        deger=self.age
-        print(f"{self.name} says Meow")
-        return deger
+    def speak(self):
+        return f"{self.name} says Meow!"
+    
+    def hunger(self):
+        pass
