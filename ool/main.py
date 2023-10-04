@@ -38,7 +38,7 @@ my_library.add_item(book1,"book")
 my_library.add_item(book2,"book")
 my_library.add_item(dvd1,"dvd")
 my_library.add_item(dvd2,"dvd")
-print("________3 books and 2 dvds are added________________")
+print("__________3 books and 2 dvds are added________________")
 my_library.list_items("Available")
 
 

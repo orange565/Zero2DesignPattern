@@ -6,6 +6,7 @@ class Item:
         self.publication_year = publication_year
         self.status = status
 
+    #Define a function to print item details
     def display_info(self):
         print("**********************************")
         print (f"* Title = {self.title} \n"+
